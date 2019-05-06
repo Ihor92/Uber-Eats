@@ -1,0 +1,49 @@
+.restaurans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.restaurant__block {
+  max-width: 308px;
+}
+
+.restaurant__block:hover {
+  background: var(--restaurant__block-hover);
+  transition: 0.5s;
+}
+
+.mcdonalds__img {
+  max-width: 308px;
+}
+
+.restaurant__name {
+  color: var(--title-of-restaurant);
+  line-height: 24px;
+  display: block;
+  padding-top: 16px;
+}
+
+.restaurant__name-uppercase {
+  text-transform: uppercase;
+}
+
+.restaurant__kitchen {
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--restaurant-kitchen);
+  display: block;
+  padding-top: 4px;
+}
+
+.restaurant__time-of-delivery {
+  color: var(--title-of-restaurant);
+  font-size: 13px;
+  line-height: 21px;
+  display: block;
+  padding: 4px 0 20px;
+}
+
+.restaurant__wrap {
+  margin-bottom: 16px;
+}

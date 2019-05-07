@@ -2,11 +2,13 @@
 @import "header/header.css";
 @import "content/content.css";
 @import "content/components/restaurant-mcdonalds.css";
+@import "footer.css";
 @import "buttons.css";
 
 :root {
   --font-roboto: "Roboto", sans-serif;
   --color-white: #fff;
+  --footer-border: rgba(255, 255, 255, 0.4);
   --border-location-address: #e0e0e0;
   --border-search: #757575;
   --restaurant__block-hover: rgba(117, 117, 117, 0.04);

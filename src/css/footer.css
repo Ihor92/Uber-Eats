@@ -87,9 +87,14 @@
   padding-left: 154px;
 }
 
-.become-partner__list,
-.general-info__list {
+.become-partner__list:not(:last-child),
+.general-info__list:not(:last-child) {
   padding-bottom: 23px;
+}
+
+.list-link {
+  text-decoration: none;
+  color: var(--color-white);
 }
 
 .footer__app-button {
@@ -125,6 +130,7 @@
 
 .footer__list-copyright {
   padding-right: 174px;
+  user-select: none;
 }
 
 .footer__list-privacy {

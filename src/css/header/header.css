@@ -32,6 +32,7 @@
   display: flex;
   align-items: center;
   text-transform: uppercase;
+  user-select: none;
 }
 
 .location__label-asap:hover {
@@ -42,6 +43,7 @@
   color: var(--restaurant-kitchen);
   margin: 0 9px;
   height: 19px;
+  user-select: none;
 }
 
 .location__delivery {

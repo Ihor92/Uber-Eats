@@ -27,7 +27,7 @@
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  margin: 38px 0 0; 
+  margin: 38px 0 0;
 }
 
 .restaurant__card-wrap {
@@ -56,7 +56,7 @@
   line-height: 15px;
   border-radius: 16px;
   border: transparent;
-  text-align: center; 
+  text-align: center;
   padding: 8px 0;
   outline: 0;
 }

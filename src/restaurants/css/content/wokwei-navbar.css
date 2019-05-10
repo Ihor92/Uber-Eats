@@ -1,0 +1,28 @@
+.restaurant-navbar {
+  width: 1124px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.2);
+}
+
+.restaurant-navbar__wrap {
+  width: 956px;
+  margin: 0 auto;
+}
+
+.restaurant-navbar__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 32px 0 29px;
+}
+
+.restaurant-navbar__link {
+  line-height: 19px;
+  color: var(--restaurant-kitchen);
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+.restaurant-navbar__link:hover {
+  color: var(--restaurant-navbar);
+}

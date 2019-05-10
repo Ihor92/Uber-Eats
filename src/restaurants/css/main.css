@@ -1,21 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
 @import "header.css";
-@import "content/content.css";
-@import "content/components/restaurant-mcdonalds.css";
+@import "content/Restaurant-Wokwei.css";
+@import "content/wokwei-navbar.css";
+@import "content/menu-snacks.css";
 @import "footer.css";
 @import "buttons.css";
 
 :root {
   --font-roboto: "Roboto", sans-serif;
   --color-white: #fff;
-  --footer-border: rgba(255, 255, 255, 0.4);
   --border-location-address: #e0e0e0;
+  --restaurant-navbar: #327430;
+  --footer-border: rgba(255, 255, 255, 0.4);
   --border-search: #757575;
-  --restaurant__block-hover: rgba(117, 117, 117, 0.04);
   --restaurant-kitchen: #626262;
-  --title-of-restaurant: #1d1d1d;
-  --background-registration: #262626bd;
-  --background-fotter: #262626;
+  --title-of-restaurant: #1d1d1d; /* 1d1d1d */
+  --background-registration: #262626bd; /* 262626bd */
+  --background-fotter: #262626; /* 262626 */
+  --restaurant__block-hover: rgba(117, 117, 117, 0.04);
 }
 
 * {

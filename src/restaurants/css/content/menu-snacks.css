@@ -1,0 +1,73 @@
+.snacks {
+  width: 1124px;
+  margin: 0 auto;
+}
+
+.snacks__wrap {
+  width: 956px;
+  margin: 0 auto;
+  padding-bottom: 31px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.snacks__subtitle {
+  width: 956px;
+  margin: 56px auto 32px;
+  font-size: 22px;
+  line-height: 34px;
+  color: var(----title-of-restaurant);
+}
+
+.snacks__menu-block {
+  display: flex;
+  width: 470px;
+  border: 1px solid rgba(117, 117, 117, 0.4);
+  margin-bottom: 49px;
+  transition: 0.3s;
+}
+
+.snacks__menu-block:hover {
+  background: rgba(117, 117, 117, 0.04);
+}
+
+.snecks__nemu-description {
+  width: 300px;
+}
+
+.snecks__nemu-wrap {
+  padding: 16px 0 16px 16px;
+}
+
+.snacks__name {
+  line-height: 24px;
+  color: var(--title-of-restaurant);
+  margin: 0;
+}
+
+.snacks__menu-details {
+  padding-top: 4px;
+  font-size: 13px;
+  line-height: 21px;
+  color: var(--restaurant-kitchen);
+  display: block;
+}
+
+.snacks__nemu-price {
+  display: flex;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 500;
+  color: var(--title-of-restaurant);
+  padding-top: 82px;
+}
+
+.nemu-price__wrap {
+  padding-top: 59px;
+}
+
+.snacks__img {
+  width: 170px;
+  height: 160px;
+}
